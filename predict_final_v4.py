@@ -51,7 +51,7 @@ def send_data_to_api(wwarning, description, event_type):
 
     # Verifică dacă a trecut suficient timp de la ultimul apel
     if current_time - last_call_time >= 3:  # Schimbă 1 cu intervalul dorit în secunde
-        api_url = "https://driver-data.onrender.com/log"  # înlocuiește cu URL-ul tău
+        api_url = ""  # înlocuiește cu URL-ul tău
         api_headers = {'Content-Type': 'application/json'}
 
         # Convert the payload to JSON
