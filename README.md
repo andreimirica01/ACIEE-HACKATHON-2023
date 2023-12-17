@@ -16,3 +16,4 @@ Creation of a monitoring, detection and alerting system in the event of sleep/mi
 ## What we did
 - **We used the 300W Dataset that is an image dataset that focuses on face images. It contains 300 indoor images and 300 outdoor images with human faces, captured in the wild. It covers a variety of identities, facial expressions, lighting conditions, poses, occlusions, and face sizes.**
 - **We used it to train a custom model that uses points arround eyes and mouth to recognize blinks and yawns.**
+- **We created a mobile app using React Native where we send alarms,calls and notification when the system recognizes that the driver is tired. 
