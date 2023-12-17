@@ -26,8 +26,8 @@ FRAMES_BEFORE_API_CALL = 500
 
 
 def twillio_sms():
-    account_sid = 'ACbd572ee5a714168027c01152ef005d86'
-    auth_token = '82a4a27ab7a39cb4395aa31a41363b45'
+    account_sid = ''
+    auth_token = ''
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
