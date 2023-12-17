@@ -33,7 +33,7 @@ def twillio_sms():
     message = client.messages.create(
         from_='+18582155345',
         body='Buna, pari obosit! Pentru a evita situatii neplacute, te rugam sa faci o pauza!',
-        to='+40757214117'
+        to='PhoneNumber'
     )
 
     print(message.sid)
